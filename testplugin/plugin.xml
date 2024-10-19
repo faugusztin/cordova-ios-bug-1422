@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:rim="http://www.blackberry.com/ns/widgets"
+xmlns:android="http://schemas.android.com/apk/res/android"
+           id="test-plugin"
+      version="5.0.1-dev">
+
+    <name>test</name>
+    <description>Cordova test Plugin</description>
+
+    <platform name="ios">
+        <podspec>
+            <config>
+                <source url="https://cdn.cocoapods.org/" />
+            </config>
+            <pods use-frameworks="true">
+                <pod name="FBSDKCoreKit" spec="17.0.0"/>
+            </pods>
+        </podspec>
+    </platform>
+</plugin>
